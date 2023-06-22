@@ -1,0 +1,189 @@
+/*CSS da barra de opções em todos os HTMLs*/
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    transition: transform 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+/*CSS externo do index.html*/
+
+  #rappers{
+    height: 400x;
+    width: 500px;
+  }
+  
+  .textos {
+    margin-left: 20px;
+  }
+  
+/*CSS externo do destaques.html*/
+
+  #destaque {
+    padding: 20px;
+    background-color: #684b3a;
+  }
+
+  .h2dest {
+    padding: 20px;
+  }
+
+  #kendrick {
+    height: 200px;
+    width: 300px;
+  }
+
+  .kendrickclass{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  #kanye {
+    height: 200px;
+    width: 300px;
+  }
+
+  .kanyeclass{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  #tyler {
+    height: 200px;
+    width: 300px;
+  }
+
+  .tylerclass{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  .borda {
+    border-collapse: collapse;
+  }
+  
+  .borda th,
+  .borda td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+/*CSS externo do contato.html*/
+
+  #contato {
+    background-color: #413f3f;
+    padding: 20px;
+    align-items: center;
+  }
+
+  #instagram {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  #contato-info {
+    overflow: hidden;
+  }
+
+/*CSS externo do novidades.html*/
+
+  #novidades {
+    background-color: #413f3f;
+    padding: 20px;
+    align-items: center;
+  }
+
+  #babykeem {
+    height: 250px;
+    width: 250px;
+  }
+
+  #lilyachty {
+    height: 200px;
+    width: 300px;
+  }
+
+  #jpegmafia {
+    height: 200px;
+    width: 300px;
+  }
+
+  .conteudo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .imagem {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .texto {
+    flex: 1 1 auto;
+  }
+  
+/*Barra externa que fica na parte superior de todos os HTMLs*/
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*Parte destinada ao dark mode de todas as páginas HTMLS*/
+
+  body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode nav ul li a {
+    color: #ffffff;
+  }
+  
+  body.dark-mode #destaque {
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  
+  body.dark-mode #sobre {
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
