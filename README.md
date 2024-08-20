@@ -1,3 +1,3 @@
 # ProjetoWebBasico
 
-Introdução a programação HTML, CSS, JS
+Introdução a programação HTML, CSS, JS.
